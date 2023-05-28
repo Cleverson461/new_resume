@@ -267,8 +267,8 @@ p {
 }
 
 .interest ul {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  justify-content: space-around;
 }
 
 .interest ul li {
